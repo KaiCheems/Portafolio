@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: floralwhite;
+}
+
+.container {
+    text-align: center;
+}
+
+.imagen-proyecto {
+    max-width: 90%;
+    max-height: 90vh;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
